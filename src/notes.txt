@@ -1,0 +1,34 @@
+
+
+// passing data from one comp to another 
+
+//f -f 
+c-comp
+c-from
+f-comp
+
+
+class component 
+
+firstly there are 4 phases in class component execution
+
+Mounting 
+- constructor() , static getDerivedStateFromProps() , render() , componentDidMount()
+Updating
+- static getDerivedStateFromProps()  , shouldCompUpdate(), render() , getSnapshotBeforeUpdate(), componentDidUpdate()
+UnMounting 
+- componentWillUnmount()
+Error Handling 
+
+
+
+//hooks ->  state in functional components 
+//react hooks 
+//Redux , jest , webpack 
+
+/*
+promises
+async await 
+Map ,Set 
+Generator ,iterator
+*/

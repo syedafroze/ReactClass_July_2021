@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import FunctionalComponent from "./Components/functionalComp";
+import ClassComponent from './Components/classComp';
+import F1 from './Props/f1'
+import CB from './LifeCycleMethods/ClassB';
+import List from "./ListRendering/list";
+import Todo from "./TodoList/todo";
+import ClassA from './PureComponent/classA'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>React</h2>
+      {/* <FunctionalComponent></FunctionalComponent>
+      <ClassComponent></ClassComponent>
+      <F1></F1>
+      <CB></CB> */}
+      {/* <List></List> */}
+      <Todo></Todo>
+      <ClassA></ClassA>
     </div>
   );
 }
