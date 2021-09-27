@@ -14,7 +14,7 @@ class Todo extends React.Component{
        this.setState({ text: event.target.value });
     }
     handleClick=()=>{
-    this.setState({list:this.state.list.concat(this.state.text)});//
+    this.setState({list:this.state.list.concat(this.state.text)});
     this.setState({text:''});//
     }
     handleDelete=(index)=>{
@@ -33,4 +33,4 @@ class Todo extends React.Component{
     }
 }
 
-export default Todo
+export default Todo;

@@ -1,5 +1,6 @@
 import React from 'react';
 import ClassB from './classB'
+import F1 from './F1'
 class ClassA extends React.Component{
     constructor(props){
         super(props);
@@ -18,12 +19,15 @@ class ClassA extends React.Component{
    }
 
     render(){
-        return <div>
+        return (
+          <div>
             <h2>Class A in Pure Comp</h2>
             <h3>Count is {this.state.count}</h3>
             <button onClick={this.handleCount}>Inc Count</button>
             <ClassB count={this.state.count}></ClassB>
-        </div>
+            <F1 count={this.state.count}></F1>
+          </div>
+        );
     }
 }
 
