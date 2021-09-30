@@ -32,3 +32,24 @@ async await
 Map ,Set 
 Generator ,iterator
 */
+
+
+//hooks
+
+useState - state  and update state in function component 
+
+
+useEffect()- componentDidMount , componentDidUpdate, componentWillUnMount
+useMemo
+useRef
+useCallback
+useContext  ()   
+useReducer  (Redux )
+
+const [count,setCount] = useState(0) 
+
+
+
+
+[0,setState]
+

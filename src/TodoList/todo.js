@@ -13,10 +13,12 @@ class Todo extends React.Component{
     handleChange=(event)=>{
        this.setState({ text: event.target.value });
     }
+
     handleClick=()=>{
     this.setState({list:this.state.list.concat(this.state.text)});
     this.setState({text:''});//
     }
+    
     handleDelete=(index)=>{
        let updatedList = [...this.state.list];
        updatedList.splice(index, 1);
